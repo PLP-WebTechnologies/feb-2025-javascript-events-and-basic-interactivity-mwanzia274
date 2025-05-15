@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  button {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  #hoverText:hover {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .gallery img {
+    width: 150px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+  }
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .tab-content {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+  }
+  
+  .feedback {
+    color: red;
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
+  
